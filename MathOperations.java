@@ -1,4 +1,4 @@
-public class MatchOperations {
+public class MathOperations {
 
     int addition(int x1,int x2){
         return x1+x2;
@@ -25,7 +25,7 @@ public class MatchOperations {
 class useOps{
 
     public static void main(String[] args) {
-        MatchOperations matchOperations = new MatchOperations();
+        MathOperations matchOperations = new MathOperations();
         System.out.println(matchOperations.addition(20,10));
         System.out.println(matchOperations.subtraction(20,10));
     }
